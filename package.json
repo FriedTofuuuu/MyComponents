@@ -1,4 +1,3 @@
-
 {
   "homepage": "https://friedtofuuuu.github.io/MyComponents2/",
   "name": "myproject",
@@ -12,7 +11,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -25,8 +23,7 @@
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
-    "vite": "^6.3.5",
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^6.3.0",
+    "vite": "^6.3.5"
   }
 }
-

@@ -6,5 +6,5 @@ export default defineConfig({
   root: './', 
   publicDir: 'public',  
   plugins: [react()],
-  base: '/MyComponents2/', 
+  base: '/MyComponents3/', 
 })

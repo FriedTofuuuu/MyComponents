@@ -1,0 +1,134 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: #202020;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+
+
+}
+
+
+.app-container{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.container{
+  background-color: white;
+  width: 46.20%;
+  border-radius: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
+.container2{
+  background-color: white;
+  width: 46.20%;
+  color: black;
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.container2 input{
+  color: black;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 15px 20px 15px 20px;
+}
+
+button{
+  color: white;
+  border: none;
+  background-color: slateblue;
+  border-radius: 5px;
+  padding: 15px 20px 15px 20px;
+  margin: 10px;
+}
+
+select{
+  color: white;
+  background-color: slateblue;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px 15px 20px;
+  margin: 10px;
+}
+
+option{
+  background-color: white;
+  color: slateblue;
+}
+
+p{
+  padding-bottom: 20px;
+}
+
+button:hover{
+
+  background-color: steelblue;
+  color: white;
+}
+
+select:hover{
+  background-color: steelblue;
+  color: white;
+}
+
+.color-picker{
+  height: 46.20%;
+  border-radius: 20px;
+
+}
+
+input[type="color"]{
+  width: 90px;
+  height: 70px;
+  border-radius: 5px;
+  border: none;
+}
+
+input[type="number"]{
+  width: 30%;
+  height: 70px;
+  margin: 20px;
+  font-size: x-large;
+}
+
+input[type="text"]{
+  width: 30%;
+  height: 70px;
+  margin: 20px;
+  font-size: x-large;
+}
+
+input[type="text"]{
+  width: 30%;
+  height: 70px;
+  margin: 20px;
+  font-size: x-large;
+}
+
+p{
+  font-size: large;
+}
+
+ul{
+  text-decoration: none;
+}
+
+ul li{
+  list-style-type: none;
+  font-size: x-large;
+}
